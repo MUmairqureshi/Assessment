@@ -29,14 +29,14 @@ export default function Latestbulliten() {
 
 
     return (
-        <div className=" container mx-auto w-full py-12 " >
+        <div  className=" container mx-auto w-full py-12 " >
 
 <div className='lg:flex mx-auto py-6 mb-6 px-6 justify-center    max-w-7xl'>
             <div className='      md:flex-col mx-auto py-6  items-center justify-center '>
             <p className='text-3xl  text-slate-600 mb-8 font-bold'>LATEST BULLETIN</p>
                 {card.map((item) => (
 
-<div className="   flex-col  ">
+<div key={item.id}  className="   flex-col  ">
 
                  
 <a href="#" className="flex flex-col  mb-6 bg-white    md:flex-row     dark:hover:bg-gray-700">

@@ -9,44 +9,40 @@ const card = [
     {
         img: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg",
         id: 1,
-        title: "CATHOLIC CHURCH",
-        descripction: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order",
-        button: " Read more"
+    
     },
     {
         img: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg",
         id: 2,
-        title: "MINISTRY AND SERMON",
-        descripction: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order",
-        button: " Read more"
+     
     },
     {
         img: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-      
+        id: 3,
     },
     {
         img: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-      
+        id: 4,
     }
     ,
     {
         img: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-      
+        id: 5,
     }
     ,
     {
         img: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-      
+        id: 6,
     }
     ,
     {
         img: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-      
+        id: 7,
     }
     ,
     {
         img: "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-      
+        id: 8 
     }
 ]
 export default function Gallery() {
@@ -60,7 +56,8 @@ export default function Gallery() {
             <p className='text-center font-bold  mb-7  text-zinc-700 text-xl md:text-3xl'>OUR GALLERY</p> 
 <div class=" max-w-7xl items-center justify-center mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
 
- {card.map((item)=>(  <div>
+ {card.map((item)=>(  
+ <div key={item.id}>
         <img class="h-80 max-w-full rounded-lg" src={item.img} alt=""/>
     </div>
 )) } 

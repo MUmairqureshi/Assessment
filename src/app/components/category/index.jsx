@@ -28,7 +28,7 @@ const card = [
         button: " Read more"
     }
 ]
-export default function Catigory() {
+export default function Category() {
 
 
     return (
@@ -41,7 +41,7 @@ export default function Catigory() {
 
 
 
-                    <div class="max-w-sm mb-6 bg-white  border-gray-200 rounded-lg  text-start">
+                    <div key={item.id} class="max-w-sm mb-6 bg-white  border-gray-200 rounded-lg  text-start">
                         <a href="#">
                             <img class="rounded-t-lg" src={item.img} alt="" className='h-64 w-full' />
                         </a>
