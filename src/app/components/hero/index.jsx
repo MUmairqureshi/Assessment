@@ -28,7 +28,7 @@ export default function Hero() {
 <div className="w-full bg-zinc-200 ">
 <div className="w-full bg-zinc-200  md:flex xl:flex -col items-center mx-auto justify-between max-w-6xl p-7  "><div>
   <p className=" text-red-800 md:text-xl "> UPCOMMING EVENT</p>
- <p className="md:text-3xl text-xl font-bold mb-4">   I am the away truth & life" by Rev.Jose Mathew</p></div>
+ <p className="md:text-3xl text-xl font-bold mb-4">   I am the away truth & life by Rev.Jose Mathew</p></div>
 <Link href="#" className="inline-flex items-center justify-center md:px-5 md:py-4 px-4 py-4 text-md  font-serif font-semibold text-center text-black  bg-orange-300 rounded-lg  focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
 PROGRAM DETAILS
     <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
