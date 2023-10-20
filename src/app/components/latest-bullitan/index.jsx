@@ -1,9 +1,4 @@
 'use client'
-import Image from 'next/image'
-import Link from 'next/link';
-
-import {PlayIcon} from '@heroicons/react/outline'
-import { useState } from 'react';
 
 const card = [
     {

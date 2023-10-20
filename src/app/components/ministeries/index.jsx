@@ -1,10 +1,5 @@
 'use client'
-import Image from 'next/image'
-import Link from 'next/link';
-
-
-import { useState } from 'react';
-
+ 
 const card = [
     {
         img: "https://ideogram.ai/api/images/direct/Y6Q8r1y2Tj6UbDpbPvp84g.jpg",
@@ -43,7 +38,7 @@ export default function Ministeries() {
 
                     <div key={item.id} className="max-w-sm mb-6 bg-white  border-gray-200 rounded-lg  text-start">
                         <a href="#">
-                            <img className="rounded-t-lg" src={item.img} alt="" className='h-64 w-full' />
+                            <img className="rounded-t-lg h-64 w-full" src={item.img} alt=""   />
                         </a>
                         <div className=" mt-4 text-start ">
                             <a href="#">

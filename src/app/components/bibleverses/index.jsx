@@ -1,7 +1,7 @@
 
 
 
-export default function Bibleverses() {
+export default function Bibleverses() {   
     return (
 
         <div className="  bg-slate-100  w-full py-12 px-6  " >
